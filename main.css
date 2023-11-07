@@ -1,0 +1,80 @@
+body
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /*estrutura basica para uma imagem possa trabalhar como fundo*/
+  background-color: #fffefeea;
+  background-image: url(wallpaper-3.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  /*background-image: linear-gradient(to bottom, yellow, black);*/
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #d1cece;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgba(137, 141, 141, 0.89);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  /*background-image: linear-gradient(to bottom, yellow, black);*/
+  background-color: #fffefeea;
+  /*background-image: url(wallpaper-2.jfif);*/
+  padding: 10px;
+  height: auto; 
+  /* Should be removed. Only for demonstration */
+  /*height: 200px;*/
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgba(121, 122, 122, 0.959);
+  padding: 03px;
+  text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 14px 16px;
+}
+	
+/*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  display: inline-block;
+  //colocar a div ao lado
+  border: 2px solid black;
+  //colocar cor de borda
+  border-radius: 10px
+  //colocar borda radial;
+  background-image: linear-gradient(to bottom, yellow, black);
+  //criar cores de linear
+/
